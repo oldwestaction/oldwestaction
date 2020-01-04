@@ -8,6 +8,5 @@
 
 extended from [`gatsby-starter-default`](https://www.gatsbyjs.org/starters/gatsbyjs/gatsby-starter-default/) using the [quick start guide](https://www.gatsbyjs.org/docs/quick-start/)!
 
-* `yarn develop` to run dev server
-* `yarn deploy` to deploy directly to github pages using the `master` branch
-
+- `yarn develop` to run dev server
+- `yarn deploy` to deploy directly to github pages using the `master` branch

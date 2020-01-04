@@ -1,16 +1,21 @@
-import React from "react"
-import PropTypes from "prop-types"
-import { Helmet } from "react-helmet"
+import React from 'react'
+import PropTypes from 'prop-types'
+import { Helmet } from 'react-helmet'
 
-import "./reset.css"
-import "./global.css"
+import './reset.css'
+import './global.css'
 
 const Layout = ({ children }) => (
   <>
     <Helmet>
       <title>anh-thư huỳnh likes the internet</title>
       <link rel="canonical" href="https://anht.hu" />
-      <link id="favicon" rel="icon" href="src/images/favicon.png" type="image/png"/>
+      <link
+        id="favicon"
+        rel="icon"
+        href="src/images/favicon.png"
+        type="image/png"
+      />
     </Helmet>
     <div
       style={{

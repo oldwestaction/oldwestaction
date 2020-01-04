@@ -1,6 +1,6 @@
-import React from "react"
-import PropTypes from "prop-types"
-import { OutboundLink } from "gatsby-plugin-google-analytics"
+import React from 'react'
+import PropTypes from 'prop-types'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const Citation = ({ label, href }) => (
   <sup
@@ -8,7 +8,8 @@ const Citation = ({ label, href }) => (
       fontSize: `0.5em`,
     }}
   >
-    <OutboundLink href={href}
+    <OutboundLink
+      href={href}
       style={{
         color: `#FFCD42`,
         background: `none`,
